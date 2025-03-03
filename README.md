@@ -1,5 +1,5 @@
 
-# Spotify to WebM Downloader
+# Spotify Playlist Downloader
 
 This script allows you to download songs from a Spotify playlist
 ## Requirements
