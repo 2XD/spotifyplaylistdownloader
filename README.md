@@ -22,13 +22,11 @@ The script requires all of the below. the libraries are found in the requirement
 ## Getting Your Spotify API Credentials
 
 1. Go to the [Spotify Developer Dashboard](https://developer.spotify.com/dashboard/applications).
-2. Log in with your Spotify account or create one if you don't have an account yet.
+2. Log in with your Spotify account
 3. Click on the **Create an App** button.
-4. Fill in the required fields:
-   - **App name**: Choose a name for your app (can be anything you want).
-   - **App description**: Add a description (optional).
+4. Fill in the app name, none of the other details matter put whatever you want:
 5. Agree to the terms and conditions and click **Create**.
-6. Once your app is created, you will be redirected to the app details page where you can find your:
+6. Once your app is created, locate the following. These will be used in the config to find your spotify playlists:
    - **Client ID** (Copy this into the `SPOTIPY_CLIENT_ID` field of `config.txt`)
    - **Client Secret** (Copy this into the `SPOTIPY_CLIENT_SECRET` field of `config.txt`)
 7. Add your Spotify API credentials to `config.txt`:
